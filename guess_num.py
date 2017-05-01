@@ -1,6 +1,6 @@
 import random
 ran_num=random.randint(0,100)
-print(ran_num)
+#print(ran_num)
 guess_num=None
 #guess_num= input(" guess the number : ")
 
