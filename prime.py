@@ -4,12 +4,11 @@ n = int(input("enter the number : "))
 
 if n>1 :
     for i in range(2,n):
-        print (i)
+      #  print (i)
         if n%i==0 :
+            print(i)
             print("not a prime")
             break
-        else:
+        if i==(n-1) :
             print("prime")
-            break
-
 
